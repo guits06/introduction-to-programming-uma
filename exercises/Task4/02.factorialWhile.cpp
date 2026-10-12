@@ -12,15 +12,16 @@ using namespace std;
 int main()
 {
     unsigned int n;
+    unsigned int res = 1;
     cout << "Enter a number n: ";
     cin  >> n;
 
     int i = n;
     while (i>0){
-        n *=(n-1);
+        res = res * i;
         i--;
     }
-    cout << n << endl;
+    cout << n << "!" << " = " << res << endl;
     return 0;
 
 }
