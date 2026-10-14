@@ -13,8 +13,8 @@ const int MAXPOW = 10;
 int main()
 {
     int x = 10; 
-    int factorial;
-    int pow;
+    int factorial = 1;
+    int pow = 1;
     for (int i = 1; i<=10; i++){
         
 
