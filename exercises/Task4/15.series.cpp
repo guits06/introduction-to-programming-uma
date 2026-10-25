@@ -15,7 +15,7 @@ int main()
     int x = 10; 
     int factorial = 1;
     int pow = 1;
-    for (int i = 1; i<=10; i++){
+    for (int i = 1; i<=x; i++){
         
 
     }
